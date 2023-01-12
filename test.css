@@ -1,9 +1,12 @@
 h1 {
-    color:blueviolet;
+    color:orange;
 }
 h2 {
-    color: blue;
+    color: red;
 }
 p {
     color: pink;
+}
+#image1 {
+    margin-left: 100px;
 }
