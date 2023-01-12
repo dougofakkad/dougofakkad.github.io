@@ -1,12 +1,35 @@
+* {
+    font-family: Arrival Apercu Mono Pro Light, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 h1 {
-    color:orange;
+    color:#ffffff;
+    text-transform: uppercase;
+    top: 50%;
 }
 h2 {
-    color: yellow;
+    color: #000000;
+    text-transform: uppercase;
 }
 p {
-    color: pink;
+    color: #000000;
+    text-transform: uppercase;
 }
 #image1 {
     margin-left: 100px;
+}
+#header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: blue;
+    height: 70px;
+    align-items: center;
+    padding: 1em;
+}
+#content {
+    position: relative;
+    margin-top: 150px;
 }
